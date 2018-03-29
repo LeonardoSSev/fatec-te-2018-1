@@ -1,0 +1,109 @@
+ACLOCAL_PATH;C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+ALLUSERSPROFILE;C:\ProgramData
+AMDAPPSDKROOT;c:\Program Files (x86)\AMD APP\
+ANSICON;192x1000 (192x43)
+ANSICON_DEF;7
+APPDATA;C:\Users\leo_a\AppData\Roaming
+CMDER_ROOT;C:\Users\leo_a\Documents\Cmder
+COMMONPROGRAMFILES;C:\Program Files (x86)\Common Files
+COMPUTERNAME;LEONARDO
+COMSPEC;C:\WINDOWS\system32\cmd.exe
+CONFIG_SITE;C:/Program Files/Git/mingw64/etc/config.site
+ChocolateyInstall;C:\ProgramData\chocolatey
+ChocolateyLastPathUpdate;ter jan 30 14:06:03 2018
+CommonProgramFiles(x86);C:\Program Files (x86)\Common Files
+CommonProgramW6432;C:\Program Files\Common Files
+ConEmuANSI;ON
+ConEmuAnsiLog;
+ConEmuArgs2;
+ConEmuArgs;/Icon "C:\Users\leo_a\Documents\Cmder\icons\cmder.ico" /Title Cmder
+ConEmuBackHWND;0x0011034C
+ConEmuBaseDir;C:\Users\leo_a\Documents\Cmder\vendor\conemu-maximus5\ConEmu
+ConEmuBuild;161206
+ConEmuConfig;
+ConEmuDir;C:\Users\leo_a\Documents\Cmder\vendor\conemu-maximus5
+ConEmuDrawHWND;0x00030752
+ConEmuDrive;C:
+ConEmuHWND;0x00020674
+ConEmuHooks;Enabled
+ConEmuPID;13772
+ConEmuPalette;<ConEmu>
+ConEmuServerPID;12652
+ConEmuTask;{Bash::Git bash}
+ConEmuWorkDir;C:\Users\leo_a\Desktop
+ConEmuWorkDrive;C:
+DISPLAY;needs-to-be-defined
+EXEPATH;C:\Program Files\Git
+FP_NO_HOST_CHECK;NO
+FSHARPINSTALLDIR;C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\
+GYP_MSVS_VERSION;2015
+HOME;C:\Users\leo_a
+HOMEDRIVE;C:
+HOMEPATH;\Users\leo_a
+HOSTNAME;Leonardo
+INFOPATH;C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+INTEL_DEV_REDIST;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+LANG;pt_BR.UTF-8
+LOCALAPPDATA;C:\Users\leo_a\AppData\Local
+LOGONSERVER;\\LEONARDO
+MANPATH;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+MINGW_CHOST;x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX;mingw-w64-x86_64
+MINGW_PREFIX;C:/Program Files/Git/mingw64
+MSYSTEM;MINGW64
+MSYSTEM_CARCH;x86_64
+MSYSTEM_CHOST;x86_64-w64-mingw32
+MSYSTEM_PREFIX;C:/Program Files/Git/mingw64
+NUMBER_OF_PROCESSORS;4
+OLDPWD;C:/Users/leo_a/documents/fatec/leonardo
+ORIGINAL_PATH;C:\Program Files\Git\cmd;C:\Users\leo_a\Documents\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\leo_a\Documents\Cmder\vendor\conemu-maximus5;C:\Users\leo_a\Documents\Cmder\vendor\conemu-maximus5\ConEmu;C:\app\leo_a\virtual\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\PuTTY;C:\Program Files (x86)\Yarn\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\leo_a\AppData\Roaming\npm;C:\Users\leo_a\AppData\Roaming\Composer\vendor\bin;C:\xampp\mysql\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\leo_a\AppData\Local\Yarn\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps
+ORIGINAL_TEMP;C:/Users/leo_a/AppData/Local/Temp
+ORIGINAL_TMP;C:/Users/leo_a/AppData/Local/Temp
+OS;Windows_NT
+OneDrive;C:\Users\leo_a\OneDrive
+PATH;C:\Users\leo_a\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Users\leo_a\Documents\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\leo_a\Documents\Cmder\vendor\conemu-maximus5;C:\Users\leo_a\Documents\Cmder\vendor\conemu-maximus5\ConEmu;C:\app\leo_a\virtual\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\PuTTY;C:\Program Files (x86)\Yarn\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\leo_a\AppData\Roaming\npm;C:\Users\leo_a\AppData\Roaming\Composer\vendor\bin;C:\xampp\mysql\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\leo_a\AppData\Local\Yarn\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+PATHEXT;.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PKG_CONFIG_PATH;C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+PLINK_PROTOCOL;ssh
+PROCESSOR_ARCHITECTURE;x86
+PROCESSOR_ARCHITEW6432;AMD64
+PROCESSOR_IDENTIFIER;Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL;6
+PROCESSOR_REVISION;3a09
+PROGRAMFILES;C:\Program Files (x86)
+PS1;\[\033]0;$TITLEPREFIX:${PWD//[^[:ascii:]]/?}\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ 
+PSModulePath;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\WindowsPowerShell\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\Storage\
+PTSMInstallPath_X86;C:\Program Files (x86)\DigitalPersona\
+PUBLIC;C:\Users\Public
+PWD;C:/Users/leo_a/documents/fatec/leonardo/ambiente-cli.php
+ProgramData;C:\ProgramData
+ProgramFiles(x86);C:\Program Files (x86)
+ProgramW6432;C:\Program Files
+SESSIONNAME;Console
+SHELL;C:\Program Files\Git\usr\bin\bash.exe
+SHLVL;1
+SSH_ASKPASS;C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass
+SYSTEMDRIVE;C:
+SYSTEMROOT;C:\WINDOWS
+TEMP;C:\Users\leo_a\AppData\Local\Temp
+TERM;cygwin
+TMP;C:\Users\leo_a\AppData\Local\Temp
+TMPDIR;C:\Users\leo_a\AppData\Local\Temp
+USERDOMAIN;LEONARDO
+USERDOMAIN_ROAMINGPROFILE;LEONARDO
+USERNAME;leo_a
+USERPROFILE;C:\Users\leo_a
+VS140COMNTOOLS;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+WINDIR;C:\WINDOWS
+_;C:/xampp/php/php
+asl_log;Destination=file
+caminho;C:\oraclexe\app\oracle\product\11.2.0\server\bin;
+PHP_SELF;exercicio.php
+SCRIPT_NAME;exercicio.php
+SCRIPT_FILENAME;exercicio.php
+PATH_TRANSLATED;exercicio.php
+DOCUMENT_ROOT;
+REQUEST_TIME_FLOAT;1519259896.9084
+REQUEST_TIME;1519259896
+argv;Array
+argc;1
