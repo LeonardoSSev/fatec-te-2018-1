@@ -1,13 +1,13 @@
-#Aula 7
-##SQLITE
+# Aula 7
+## SQLITE
 
-#####CRIAR O BANCO
+##### CRIAR O BANCO
 
 `$ sqlite3 portal.db`
 
-###CRIAR TABELAS
+### CRIAR TABELAS
 
-#####Usuários
+##### Usuários
 ```
 CREATE TABLE usuarios (
     id INTEGER PRIMARY KEY, 
@@ -15,14 +15,14 @@ CREATE TABLE usuarios (
     senha TEXT
 );
 ```
-#####Categorias
+##### Categorias
 ```
 CREATE TABLE categorias (
     id INTEGER PRIMARY KEY, 
     nome TEXT
 );
 ```
-#####Notícias
+##### Notícias
 ```
 CREATE TABLE noticias (
     id INTEGER PRIMARY KEY, 
@@ -35,11 +35,11 @@ CREATE TABLE noticias (
 );
 ```
 
-#####HABILITANDO A RESTRIÇÃO DE CHAVE ESTRANGEIRA
+##### HABILITANDO A RESTRIÇÃO DE CHAVE ESTRANGEIRA
 
 `PRAGMA foreign_keys = ON;`
 
-#####VERIFICANDO SE A RESTRIÇÃO DE CHAVE ESTANGEIRA ESTÁ HABILITADA 
+##### VERIFICANDO SE A RESTRIÇÃO DE CHAVE ESTANGEIRA ESTÁ HABILITADA 
 
 `PRAGMA foreign_keys;`
 
@@ -47,8 +47,8 @@ CREATE TABLE noticias (
 
 -- -> 0 para desligado
 
-###INSERIR DADOS NAS TABELAS
-#####Usuários
+### INSERIR DADOS NAS TABELAS
+##### Usuários
 
 ```
 INSERT INTO usuarios VALUES
@@ -58,7 +58,7 @@ INSERT INTO usuarios VALUES
 (4, 'Lula', '789');
 ```
 
-#####Categorias
+##### Categorias
 ```
 INSERT INTO categorias VALUES 
 (1, 'Aula')
@@ -66,22 +66,22 @@ INSERT INTO categorias VALUES
 (3, 'Economia');
 ```
 
-#####Noticias
+##### Noticias
 ```
 INSERT INTO noticias VALUES
 (1, 1, 1,  'Aula 7', 'SQLite - PDO'),
 (2, 2, 2, 'Julgamento dos Habeas Corpus', 'Votação da ministra');
 ``` 
 
-####Diferença entre `.open` e `.read`:
+#### Diferença entre `.open` e `.read`:
 
 * `.open` -> Abre arquivos `.sqlite` ou `.db` 
 
 * `.read` -> Abre arquivos `.sql`
 
-##PHP - PDO
-####PDO
-#####Métodos básicos
+## PHP - PDO
+#### PDO
+##### Métodos básicos
 
 * `__construct($dsn)` -> Cria um objeto PDO
 
@@ -93,8 +93,8 @@ INSERT INTO noticias VALUES
 
 Os métodos `query()` e `prepare()` retornam um objeto do tipo `PDOStatement`.
 
-####PDOStatement
-#####Métodos básicos 
+#### PDOStatement
+##### Métodos básicos 
 * `bindParam($par, $vlr)`
 
 * `execute()` -> Executa uma consulta preparada pelo `prepare($sql)`
@@ -104,12 +104,12 @@ Os métodos `query()` e `prepare()` retornam um objeto do tipo `PDOStatement`.
 * `fetch()` -> Retorna um vetor da consulta
 
 
-####Hands On!
-#####CRIANDO UM OBJETO PDO
+#### Hands On!
+##### CRIANDO UM OBJETO PDO
 
 `$portal = new PDO('sqlite:portal.db);`
 
-#####OBTENDO REGISTROS DE UMA TABELA
+##### OBTENDO REGISTROS DE UMA TABELA
 
 ```
 $comando = $portal->query('SELECT * FROM categorias);
@@ -123,7 +123,7 @@ $categoria = $comando->fetch();
 var_dump($categoria);
 ```
 
-#####DEFININDO INSTRUÇÃO SQL COM PARÂMETROS
+##### DEFININDO INSTRUÇÃO SQL COM PARÂMETROS
 ```
 $comando = $portal->prepare('SELECT * FROM usuarios WHERE id =:id');
 $id = 2;
@@ -135,7 +135,7 @@ print "Nome: " . $usuario['login'];
 print "Senha: " . $usuario['senha'];
 ```
 
-#####INSERINDO REGISTROS
+##### INSERINDO REGISTROS
 ```
 $comando = $portal->prepare('INSERT INTO usuarios VALUES(5, "Bolsonaro", "1")');'
 print $comando->execute();
@@ -145,7 +145,7 @@ $usuarios = $comando->fetchAll();
 var_dump($usuarios);
 ```
 
-#####REMOVENDO REGISTROS DA TABELA
+##### REMOVENDO REGISTROS DA TABELA
 ```
 $comando = $portal->prepare('DELETE FROM usuarios WHERE id=:id');
 $id = 5;
