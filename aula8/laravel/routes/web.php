@@ -21,5 +21,6 @@ Route::get('oi', function () {
 });
 
 Route::get('ola', function () {
-    return view('ola');
+    $nome = 'Leonardo';
+    return view('ola', compact('nome'));
 });

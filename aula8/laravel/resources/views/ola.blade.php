@@ -7,7 +7,7 @@
     <body>
         <h1>Minha primeira visão</h1>
         <p>
-            <strong>Ola mundo</strong> gerado por meio de uma visão!
+            <strong>Ola {{ $nome }}</strong> gerado por meio de uma visão!
         </p>
     </body>
 </html>
