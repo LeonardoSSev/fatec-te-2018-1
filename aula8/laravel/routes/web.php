@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('oi', function () {
     return 'Olá mundo!';
 });
+
+Route::get('ola', function () {
+    return view('ola');
+});
