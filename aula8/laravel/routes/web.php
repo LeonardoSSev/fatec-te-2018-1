@@ -24,3 +24,7 @@ Route::get('ola', function () {
     $nome = 'Leonardo';
     return view('ola', compact('nome'));
 });
+
+Route::get('sobre', function () {
+    return view('sobre');
+});
