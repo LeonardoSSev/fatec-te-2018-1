@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//DEFININDO NOVAS ROTAS
+Route::get('oi', function () {
+    return 'Olá mundo!';
+});
