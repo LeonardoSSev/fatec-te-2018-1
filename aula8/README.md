@@ -49,10 +49,16 @@ O MVC é um padrão de projeto que permite separar os conceitos de Model, View e
 ##### Model
 
 Arquivos que serão responsáveis por estruturar e lidar com os dados da aplicação.
+Model inicial:
+ 
+`User.php`
 
 ##### View
 
 Arquivos que serão responsáveis por exibir, para o usuário, a aplicação e suas respectivas telas.
+View inicial:
+
+`welcome.blade.php`
 
 ##### Controller
 
@@ -75,6 +81,9 @@ Diretório que guardará os arquivos de View.
 ### Routes
 
 Pasta aonde está organizada os arquivos de rotas da aplicação.
+Rota padrão: 
+
+`/`
 
 
 #### Artisan
