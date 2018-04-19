@@ -28,3 +28,6 @@ Route::get('ola', function () {
 Route::get('sobre', function () {
     return view('sobre');
 });
+Route::get('contato', function () {
+    return view('contato');
+});

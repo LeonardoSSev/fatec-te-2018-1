@@ -11,6 +11,11 @@
     <title>@yield('title')</title>
 </head>
 <body>
+
+<ul>
+    <li><a href="/sobre">Sobre nós</a></li>
+    <li><a href="/contato">Contato</a></li>
+</ul>
 @yield('body')
 
 <!-- Optional JavaScript -->
