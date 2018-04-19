@@ -28,6 +28,13 @@ Route::get('ola', function () {
 Route::get('sobre', function () {
     return view('sobre');
 });
+
 Route::get('contato', function () {
-    return view('contato');
+    $emails = [
+        'financeiro@empresa.com',
+        'suporte@empresa.com',
+        'contato@empresa.com',
+    ];
+
+    return view('contato', compact('emails'));
 });
