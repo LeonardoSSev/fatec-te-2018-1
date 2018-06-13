@@ -1,0 +1,30 @@
+<html !DOCTYPE html>
+    <head></head>
+    <body>
+        <h1>Revisão de JavaScript - 3</h1>
+        <script>
+            // DEFINIR OBJETO JSON
+            var candidato = {
+                'nome': 'João amoedo',
+                'partido': 'Partido Novo'
+            };
+
+            document.write('<p>Candidado: ');
+            document.write(candidato.nome + '</p>');
+            document.write('<p>Partido: ');
+            document.write(candidato.partido + '</p>');
+
+            var partidos = [
+                {'nome': 'PT'},
+                {'nome': 'PMDB'},
+                {'nome': 'PSDB'},
+            ];
+
+            document.write('<ul>');
+            for (var indice in partidos) {
+                document.write('<li>' + partidos[indice].nome + '</li>');
+            }
+            document.write('</ul>');
+        </script>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+<html !DOCTYPE html>
+    <head></head>
+    <body>
+        <h1>Revisão de JavaScript - 2</h1>
+        <script>
+            var clubes = ['Palmeiras', 'Santos', 'São Paulo'];
+
+            document.write('<p>Maior campeão brasileiro: ');
+            document.write(clubes[2] + '</p>');
+
+            document.write('<ul>');
+            for (var clube in clubes) {
+                document.write('<li>' + clubes[clube] + '</li>');
+            }
+            document.write('</ul>');
+        </script>
+    </body>
+</html>
