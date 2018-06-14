@@ -1,30 +1,24 @@
 <html !DOCTYPE html>
     <head></head>
     <body>
-        <h1>Revisão de JavaScript - 3</h1>
+        <h1>Revisão de JavaScript - 4</h1>
+
+        <div id="painel"></div>
+
         <script>
-            // DEFINIR OBJETO JSON
-            var candidato = {
-                'nome': 'João amoedo',
-                'partido': 'Partido Novo'
-            };
 
-            document.write('<p>Candidado: ');
-            document.write(candidato.nome + '</p>');
-            document.write('<p>Partido: ');
-            document.write(candidato.partido + '</p>');
+            var painel = document.all['painel'];
 
-            var partidos = [
-                {'nome': 'PT'},
-                {'nome': 'PMDB'},
-                {'nome': 'PSDB'},
-            ];
+            painel.innerHTML = '<p>Escrito por script!</p>';
 
-            document.write('<ul>');
-            for (var indice in partidos) {
-                document.write('<li>' + partidos[indice].nome + '</li>');
+            // RECUPERANDO ELEMENTOS DA PÁGINA
+            document.write('<h2>ELEMENTOS DA PÁGINA</h2>');
+            for (var elemento in document.all) {
+                document.write('<p><strong>Elemento [' + elemento + ']: ');
+                document.write('</strong>');
+                document.write(document.all[elemento] + '</p>');
             }
-            document.write('</ul>');
+
         </script>
     </body>
 </html>
